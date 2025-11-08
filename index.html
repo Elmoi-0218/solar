@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarCare - Protectores Solares Premium</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-sun"></i>
+                    <span>SolarCare</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="/login.html" class="admin-btn">
+                        <i class="fas fa-user-shield"></i>
+                        Admin
+                    </a>
+                    <button class="cart-btn" id="openCart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Carrito
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <h1>Protección Solar<br><span>de Alta Calidad</span></h1>
+                <p>Descubre nuestra gama premium de protectores solares formulados con los mejores ingredientes para proteger tu piel del daño solar mientras la hidrata y nutre.</p>
+                <div class="btn-group">
+                    <a href="#productos" class="btn btn-primary">
+                        Ver Productos
+                    </a>
+                    <a href="#beneficios" class="btn btn-secondary">
+                        Más Información
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="section benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Por Qué Elegirnos</h2>
+                <p>Nuestros protectores solares están diseñados con tecnología avanzada y ingredientes de alta calidad</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Protección Avanzada</h3>
+                    <p>Fórmulas científicamente probadas que bloquean los rayos UVA y UVB</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Hidratación Intensa</h3>
+                    <p>Ingredientes hidratantes que mantienen tu piel suave y protegida</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ingredientes Naturales</h3>
+                    <p>Formulados con componentes naturales y respetuosos con el medio ambiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Productos</h2>
+                <p>Fórmulas innovadoras para todos los tipos de piel y necesidades</p>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¡Protege Tu Piel Hoy!</h2>
+                <p>No esperes más para darle a tu piel la protección que merece. Nuestros productos están diseñados para brindarte la mejor defensa contra los rayos UV.</p>
+                <button class="btn btn-primary" id="openCartCTA">
+                    Ver Carrito
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-sun"></i>
+                        <span>SolarCare</span>
+                    </div>
+                    <p>Tu aliado en la protección solar diaria con productos de alta calidad y fórmulas innovadoras.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Productos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Protectores Faciales</a></li>
+                        <li><a href="#">Protectores Corporales</a></li>
+                        <li><a href="#">Productos para Niños</a></li>
+                        <li><a href="#">Fórmulas Especiales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Información</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-contact">
+                    <h3>Contacto</h3>
+                    <p>Email: info@solarcare.com</p>
+                    <p>Teléfono: +1 (555) 123-4567</p>
+                    <p>Dirección: Calle Sol 123, Ciudad</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SolarCare. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Tu Carrito</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart" id="emptyCart">
+                    <i class="fas fa-shopping-cart" style="font-size: 48px; color: #ddd; margin-bottom: 16px;"></i>
+                    <p>Tu carrito está vacío</p>
+                </div>
+            </div>
+            <div class="cart-total" id="cartTotal" style="display: none;">
+                <span>Total:</span>
+                <span id="totalAmount">$0.00</span>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn" style="display: none;">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div class="payment-modal" id="paymentModal">
+        <div class="payment-content">
+            <div class="payment-header">
+                <h3>Métodos de Pago</h3>
+                <button class="close-payment" id="closePayment">&times;</button>
+            </div>
+            <div class="payment-methods">
+                <div class="payment-option active" data-method="credit">
+                    <i class="fas fa-credit-card"></i>
+                    <span>Tarjeta de Crédito/Débito</span>
+                </div>
+                <div class="payment-option" data-method="paypal">
+                    <i class="fab fa-paypal"></i>
+                    <span>PayPal</span>
+                </div>
+                <div class="payment-option" data-method="transfer">
+                    <i class="fas fa-university"></i>
+                    <span>Transferencia Bancaria</span>
+                </div>
+            </div>
+            
+            <div class="payment-form" id="creditForm">
+                <div class="form-group">
+                    <label for="cardNumber">Número de Tarjeta</label>
+                    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expiryDate">Fecha de Expiración</label>
+                        <input type="text" id="expiryDate" placeholder="MM/AA" maxlength="5">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="123" maxlength="4">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cardName">Nombre en la Tarjeta</label>
+                    <input type="text" id="cardName" placeholder="Nombre completo">
+                </div>
+            </div>
+            
+            <div class="payment-form" id="paypalForm" style="display: none;">
+                <div class="paypal-info">
+                    <p>Serás redirigido a PayPal para completar tu pago de forma segura.</p>
+                    <div class="paypal-logo">
+                        <i class="fab fa-paypal" style="font-size: 48px; color: #003087;"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="payment-form" id="transferForm" style="display: none;">
+                <div class="transfer-info">
+                    <h4>Datos Bancarios</h4>
+                    <p><strong>Banco:</strong> Banco Nacional</p>
+                    <p><strong>Titular:</strong> SolarCare S.A.</p>
+                    <p><strong>Cuenta Corriente:</strong> 1234-5678-901234</p>
+                    <p><strong>CBU:</strong> 0000001234567890123456</p>
+                    <p class="note">* Por favor, envía el comprobante de transferencia a info@solarcare.com</p>
+                </div>
+            </div>
+            
+            <div class="payment-summary">
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span id="subtotalAmount">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Envío:</span>
+                    <span id="shippingAmount">$0.00</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total:</span>
+                    <span id="finalTotalAmount">$0.00</span>
+                </div>
+            </div>
+            
+            <button class="pay-btn" id="payBtn">Confirmar Pago</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
