@@ -1,8 +1,8 @@
 body {
-                  background-color: white; /* Ensure the iframe has a white background */
-                }
+    background-color: white; /* Ensure the iframe has a white background */
+}
     
-                * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1746,4 +1746,5 @@ tbody tr:last-child td {
         width: 95%;
         max-width: 95%;
     }
+
 }
